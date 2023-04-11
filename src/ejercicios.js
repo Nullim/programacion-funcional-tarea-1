@@ -1,11 +1,9 @@
 export function multiplicarPor10(array) {
-    const nuevoArrayMultiplicado = array.map(numero => numero * 10);
-    return nuevoArrayMultiplicado;
+    return array.map(numero => numero * 10);
 }
 
 export function soloPares(array) {
-    const arrayConSoloPares = array.filter(numero => numero % 2 === 0);
-    return arrayConSoloPares;
+    return array.filter(numero => numero % 2 === 0);
 }
 
 export function moverALaDerecha(array) {
@@ -16,8 +14,7 @@ export function moverALaDerecha(array) {
 }
 
 export function soloUnaPalabra(array) {
-    const arraySinEspacios = array.filter(palabra => !palabra.includes(' '));
-    return arraySinEspacios;
+    return array.filter(palabra => !palabra.includes(' '));
 }
 
 export function soloArraysPositivos(array) {
